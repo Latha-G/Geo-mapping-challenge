@@ -41,9 +41,9 @@ var earthquakes = new L.LayerGroup();
 // Defining an object that contains all of our different map choices.
 // Only one of these maps will be visible at a time!
 var baseMaps = {
-  Satellite: satellitemap,
   Grayscale: graymap,
-  Outdoors: outdoors
+  Outdoors: outdoors,
+  Satellite: satellitemap
 };
 
 // We define an object that contains all of our overlays. 
